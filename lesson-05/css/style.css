@@ -1,0 +1,79 @@
+.wrapper{
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    font-size: 25px;
+    display: inline-block;
+}
+
+.reg{
+    color: black;
+    text-decoration: none;
+}
+
+.log{
+    color: black;
+    text-decoration: none;
+}
+
+.line{
+    margin: 0 1px;
+    color: black
+}
+
+.data input{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #999;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.register{
+    margin-top: 15px;
+    height: 53px;
+    width: 329px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+.another{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.google{
+    margin-top: 20px;
+    height: 53px;
+    width: 329px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+.facebook{
+    margin-top: 20px;
+    height: 53px;
+    width: 329px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
