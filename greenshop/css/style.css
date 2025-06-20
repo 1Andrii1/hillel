@@ -382,6 +382,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 105px;
+    margin-bottom: 100px;
 }
 
 .paginator-btn{
@@ -402,4 +403,63 @@
 .paginator-btn:hover{
     color: #ffffff;
     background-color: #46A358;
+}
+
+.cards{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 47%;
+    margin-right: 24px;
+    height: 302px;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.card-img{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-info{
+    width: 64%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.card-info h2{
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 145px;
+}
+
+.card-info p{
+    margin-left: 30px;
+    font-size: 14px;
+    color: #727272;
+}
+
+.card-info a{
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #46A358;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card-info a img{
+    display: inline-block;
+    vertical-align: middle;
 }
